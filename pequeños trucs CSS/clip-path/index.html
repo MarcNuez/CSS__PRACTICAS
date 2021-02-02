@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8ea2da60c2.js" crossorigin="anonymous"></script>
+    <title>Clip-Path</title>
+</head>
+
+<body>
+
+    <div class="contenedor-menu" id="contenedor-menu">
+        <p class="btn-abrir-menu" id="btn-abrir-menu" ><i class="fa fa-home"></i></p>
+
+        <nav class="elementos-navegacion">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="contenedor">
+        <header class="header">
+            <h1 class="titulo">Lorem ipsum</h1>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vitae labore assumenda reiciendis
+              </p>
+        </header>
+    </div>
+
+    <script>
+        const menu = document.getElementById('btn-abrir-menu');
+        menu.addEventListener('click',() =>{
+            document.getElementById('contenedor-menu').classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>

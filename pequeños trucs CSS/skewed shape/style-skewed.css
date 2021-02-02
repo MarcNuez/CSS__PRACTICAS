@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+section{
+    position: relative;
+    
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+  
+
+}
+
+
+
+section.sec1{
+    background: url(lago.jpg);
+    background-size:  cover;
+}
+section.sec2{
+    background: white;
+    padding: 50px 150px;
+    box-sizing: border-box;
+    height: auto;
+    
+
+}
+p{
+    text-align: justify;
+}
+
+section.sec2 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+
+}
+
+section.sec3{
+    background: url(paisaje.jpg);
+    background-size: cover;
+}
+
+
+.skewed1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    border-width: 100px 0px 0px 1400px; /*top left bottom right*/
+    border-style: solid;
+    border-color: transparent  transparent transparent #fff;
+
+}
+.skewed3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    border-width: 0px 0px 100px  1400px; /*top left bottom right*/
+    border-style: solid;
+    border-color: transparent  transparent transparent #fff;
+
+}

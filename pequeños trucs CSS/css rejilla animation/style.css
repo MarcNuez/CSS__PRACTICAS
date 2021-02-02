@@ -1,0 +1,56 @@
+$gradient:
+    repeating-linear-gradient(lime 2px,
+    transparent 3px, transparent 40px),
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(dimgray,black);
+    display: grid;
+    place-items: center;
+}
+
+.grid
+{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(green,black 85%);
+    border: 7px groove lime;
+    outline: 5px groove black;
+    box-shadow: inset 0 0 40px 0 lawngreen;
+    display: grid;
+    place-items: center;
+}
+
+.top,.bottom,.left,.right{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    border: 2px solid lawngreen;
+
+}
+
+.top{
+    transform-origin: top;
+    transform: perspective(250px) rotateX(-45deg);
+}
+.bottom{
+    transform-origin: bottom;
+    transform: perspective(250px) rotateX(45deg);
+}
+.left{
+    transform-origin: left;
+    transform: perspective(250px) rotateY(45deg);
+}
+.right{
+    transform-origin: right;
+    transform: perspective(250px) rotateY(-45deg);
+}

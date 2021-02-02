@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.box1{
+    background: blue;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+
+
+}
+
+.box2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    margin-left: 200px;
+}
+
+.box1 a{    color: white;
+text-decoration: none;}
+.box2 a{    
+text-decoration: none;}
+
+
